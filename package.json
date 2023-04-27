@@ -1,0 +1,22 @@
+{
+  "name": "expapp",
+  "version": "1.0.0",
+  "description": "express tut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js -e js,hbs"
+  },
+  "author": "vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.20.0",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.4",
+    "mongoose": "^7.0.3",
+    "validator": "^13.9.0"
+  }
+}
